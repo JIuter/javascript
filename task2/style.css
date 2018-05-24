@@ -1,0 +1,30 @@
+﻿td {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	color: gray;
+	vertical-align: middle;
+}
+#table td {
+	border: solid 1px gray;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	color: gray;
+	width: 55px;
+	height: 55px;
+}
+
+#table td.cool {
+	color: greenyellow;
+	background: black;
+}
+
+#table td:hover {
+	color: brown;
+	cursor: hand;
+}
+
+#newGame {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
