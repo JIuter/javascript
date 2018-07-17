@@ -1,0 +1,77 @@
+﻿* {
+	font-family: "Roboto";
+}
+
+#container {
+	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box; /* OLD - Firefox 19- */
+	display: -ms-flexbox; /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	display: flex; /* NEW, Opera 12.1, Firefox 20+ */
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 500px;
+	margin-top: 0;
+	
+}
+
+#menuContainer {
+	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box; /* OLD - Firefox 19- */
+	display: -ms-flexbox; /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	display: flex; /* NEW, Opera 12.1, Firefox 20+ */
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 150px;
+}
+
+#menu {
+	margin: 0 auto;
+	color: green;
+	width: 700px;
+	font-size: 2em;
+	background: black;
+}
+
+#level {
+	text-align: left;
+	padding-left: 5px;
+}
+
+#score {
+	text-align: right;
+	padding-right: 5px;
+}
+
+#text {
+	text-align: center;
+}
+
+#table {
+	margin: 0 auto;
+	background: black;
+}
+
+#table td {
+	width: 10px;
+	height: 10px;
+}
+
+#table td.snake{
+	background: greenyellow;
+}
+
+#table td.food{
+	background: gold;
+}
+
+label {
+	display: block;
+	text-align: center;
+	line-height: 100%;
+	font-size: 4em;
+	color: black;
+}
